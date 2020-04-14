@@ -1,0 +1,80 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 13/04/2020 16:37
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-facebook:before { content: "\f100"; }
+.flaticon-twitter:before { content: "\f101"; }
+.flaticon-linkedin:before { content: "\f102"; }
+.flaticon-tumblr:before { content: "\f103"; }
+.flaticon-youtube:before { content: "\f104"; }
+.flaticon-instagram:before { content: "\f105"; }
+.flaticon-pinterest:before { content: "\f106"; }
+.flaticon-snapchat:before { content: "\f107"; }
+.flaticon-delivery-truck:before { content: "\f108"; }
+.flaticon-truck:before { content: "\f109"; }
+.flaticon-return:before { content: "\f10a"; }
+.flaticon-percentage:before { content: "\f10b"; }
+.flaticon-message:before { content: "\f10c"; }
+.flaticon-chat-bubbles-with-ellipsis:before { content: "\f10d"; }
+.flaticon-call:before { content: "\f10e"; }
+.flaticon-box:before { content: "\f10f"; }
+.flaticon-guarantee:before { content: "\f110"; }
+.flaticon-list:before { content: "\f111"; }
+.flaticon-shopping-cart:before { content: "\f112"; }
+.flaticon-research:before { content: "\f113"; }
+    
+    $font-Flaticon-facebook: "\f100";
+    $font-Flaticon-twitter: "\f101";
+    $font-Flaticon-linkedin: "\f102";
+    $font-Flaticon-tumblr: "\f103";
+    $font-Flaticon-youtube: "\f104";
+    $font-Flaticon-instagram: "\f105";
+    $font-Flaticon-pinterest: "\f106";
+    $font-Flaticon-snapchat: "\f107";
+    $font-Flaticon-delivery-truck: "\f108";
+    $font-Flaticon-truck: "\f109";
+    $font-Flaticon-return: "\f10a";
+    $font-Flaticon-percentage: "\f10b";
+    $font-Flaticon-message: "\f10c";
+    $font-Flaticon-chat-bubbles-with-ellipsis: "\f10d";
+    $font-Flaticon-call: "\f10e";
+    $font-Flaticon-box: "\f10f";
+    $font-Flaticon-guarantee: "\f110";
+    $font-Flaticon-list: "\f111";
+    $font-Flaticon-shopping-cart: "\f112";
+    $font-Flaticon-research: "\f113";

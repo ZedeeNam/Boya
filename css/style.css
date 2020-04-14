@@ -1,0 +1,2277 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Open Sans', sans-serif; 
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-family: 'Archivo Black', sans-serif; 
+	font-family: 'Archivo Narrow', sans-serif; 
+	font-family: 'Archivo', sans-serif; 
+	font-family: 'Ramabhadra', sans-serif;
+}
+a{
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+}
+a:hover{
+	color: #8a3c6e;
+}
+
+/*header area*/
+header{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header .container{
+	width: 100%;
+} 
+
+header .top-area{
+	width: 100%;
+	background: #373737;
+	padding-top: 10px;
+	padding-bottom:  10px;
+} 
+
+header .top-container{
+	background: #373737;
+	font-size: 15px;
+	color: white;
+	font-weight: 200;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+
+header .top-container ul li{
+	display: inline-block;
+}
+
+header .top-container a{
+	color: white;
+} 
+
+header .top-container a:hover{
+	text-decoration: underline;
+	color: #8a3c6e;
+} 
+
+header .top-left{
+	display: none;
+}
+
+header .top-left #free-shipping{
+	margin-right: 20px;
+	/*vertical-align: -moz-middle-with-baseline;*/
+}
+
+header .top-right{
+	width: 100%;
+	text-align: center;
+}
+
+header .top-right #toll-free{
+	/*margin-right: 20px;*/
+}
+
+header .logo-area{
+	width: 100%;
+	background: white;
+	padding-top: 20px;
+	padding-bottom:  20px;
+}
+
+header .logo-container{
+	font-size: 15px;
+	color: black;
+	font-weight: 200;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+
+header .logo img{
+	width: 212px;
+}
+
+header .mobile-menu{
+	text-align: right;
+	width: 75%;
+	display: block;
+}
+
+header .main-menu{
+	background: #8a3c6e;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header .menu-container{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 15px;
+	color: white;
+	font-weight: 500;
+}
+
+header .search-area-mobile{
+	text-align: center;
+}
+
+header .search-area-mobile ul li{
+	display: inline-block;
+}
+
+header .search-area-mobile .login{
+	float: left;
+	cursor: pointer;
+}
+
+header .search-area-mobile .cart{
+	cursor: pointer;
+}
+
+header .search-area-mobile .search{
+	float: right;
+	cursor: pointer;
+}
+
+header .menu-container a:hover{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: black;
+	font-weight: 500;
+}
+
+
+/*start of background-image area*/
+section .header-image{
+	/*padding: 200px 15px 90px 15px;
+	background: url(../img/boya.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-color: red;*/*/
+  background: url(../img/boya.jpg);
+  background-image: url("../img/boya.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: local; 
+}
+
+section .header-image{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 17%;
+	height: 50vh;
+}
+
+section .image-container{
+	margin: 0 auto;
+	display: block;
+	width: 80%;
+}
+
+section .image-content{
+	text-align: center;
+}
+
+section .image-content h1{
+	color: white;
+	font-size: 35px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section .image-content p{
+	color: white;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Archivo', sans-serif;
+	padding: 10% 0 17%;
+	line-height: 1.17;
+}
+
+section .image-content a{
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 1px;
+	border: none;
+	background: #8a3c6e;
+	color: white;
+}
+
+section .image-content a:hover{
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 1px;
+	border: none;
+	background: white;
+	color: #8a3c6e;
+}
+
+
+/*latest in store section*/
+section #latest{
+	width: 100%;
+} 
+
+section .latest-in-store{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom:  10%;
+} 
+
+section .latest-container{
+	width: 87.5%;
+	margin: 0 auto;
+}
+
+/*.latest-container{
+	padding: 5%;
+}*/
+
+.new-arrivals{
+	/*width: 70%;*/
+	display: inline-flex;
+	margin-bottom: 15px;
+}
+
+.new-arrivals h2{
+	text-align: left;
+	font-size: 35px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+.arrow{
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+
+.arrow a{
+	color: white;
+	background: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.arrow a:hover{
+	color: white;
+	background: #8a3c6e;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.arrow .previous{
+	background: gray;
+}
+
+.arrow .previous:hover{
+	background: gray;
+}
+
+section .mobile-store{
+	width: 100%;
+	padding-top: 5%;
+	border: 1px solid gainsboro;
+}
+
+section .mobile-store:hover{
+	border: 1px solid gray;
+}
+
+section .mobile-store img{
+	width: 100%;
+	display: block;
+}
+
+section .product-heading{
+	width: /*70%*/ 100%;
+	/*display: inline-flex;*/
+	display: block;
+	padding: 2%;
+}
+
+section .product-heading p{
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 12px;
+	line-height: 1.17;
+	color: grey;
+}
+
+section .product-heading a{
+	color: black;
+}
+
+section .product-heading a:hover{
+	color: #8a3c6e;
+}
+
+section .product-heading h3{
+	font-family: 'Archivo', sans-serif;
+	font-size: 14px;
+	line-height: 1.17;
+}
+
+section .product-price{
+	/*width: 30%;
+	float: right;
+	text-align: right;*/
+	padding: 2%;
+}
+
+section .product-price h4{
+	color: #8a3c6e;
+	font-size: 18px;
+}
+
+section .product-price p{
+	color: silver;
+	font-size: 13px;
+}
+
+section .product-price p{
+	color: silver;
+	font-size: 13px;
+}
+
+section .view-all{
+	text-align: center;
+	margin-top: 40px;
+}
+
+section .view-all a{
+	color: white;
+	background: black;
+	padding: 8px 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	border: none;
+	border-radius: 1px;
+}
+
+section .view-all a:hover{
+	color: black;
+	background: #8a3c6e;
+}
+
+
+/*deals section*/
+	section #deals{
+		width: 100%;
+		display: block !important;
+	}
+
+	section .best-deals{
+		background-image: url("../img/boya-vid-camera.png");
+		background-repeat: no-repeat, repeat;
+		background-position: center;
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-attachment: local;
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .deals-container{
+		width: 87.5%;
+		margin: 0 auto;
+	}
+
+	section .great-deals{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	section .overlay-background{
+		height: 100%;
+		/*background: rgba(234, 141, 20, 0.9);*/
+		background: rgba(138, 60, 110, 0.9);
+		display: block;
+	}
+
+	section .pic{
+		width: 100%;
+		text-align: center;
+		/*position: relative;*/
+	}
+
+	section .pic img{
+		width: 40%;
+	}
+
+	section .text{
+		/*position: relative;*/
+		/*padding: 30px;*/
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+
+	/*section .text hr{
+		width: 80%;
+		height: 3px;
+		border: none;
+		color: gray;
+	}*/
+
+	section .text h2{
+		/*width: 80%;*/
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text p{
+		/*width: 80%;*/
+		font-size: 25px;
+		line-height: 1.17;
+		padding: 2% 0;
+	}
+
+	section .text h4{
+		/*width: 80%;*/
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text button{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		border-radius: 1px;
+	}
+	section .text button:hover{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		color: #8a3c6e;
+		background: black;
+	}
+
+
+/*category / explore section*/
+	section #category{
+		width: 100%;
+	}
+
+	section .category-container{
+		width: 87.5%;
+		margin: 8% auto;
+	}
+
+	section .categories{
+		width: 100%;
+		display: block;
+		border: 1px solid gainsboro;
+	}
+
+	section .explore{
+		width: 100%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+
+	section .explore h2{
+		text-align: center;
+		margin: auto;
+		font-size: 35px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
+
+	section .options{
+		width: 100%;
+		/*margin: 2%;*/
+		padding: 2%;
+	}
+
+	section .row1{
+		display: inline-flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	section .row2{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-around;
+		margin-top: 2%;
+	}
+
+	section .explore-imgs{
+		width: 100%;
+	}
+
+	section .explore-imgs:hover{
+		/*width: 25%;*/
+		box-shadow: 0 0 11px rgba(33,33,33,.2);
+		-webkit-transform: scale(1.05, 1.05);
+  		transform: scale(1.05, 1.05);
+  		transition: /*box-shadow*/ opacity 0.3s ease-in-out;
+	}
+
+	section .explore-imgs a{
+		text-align: center;
+		margin: auto;
+		font-size: 22px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: black;
+	}
+
+	section .explore-imgs a:hover{
+		font-weight: 400;
+		color: black;
+	}
+
+	section .explore-imgs img{
+		width: 100%;
+	}
+
+	section .more-categories{
+		width: 100%;
+		/*float: right;*/
+		text-align: center;
+		display: block !important;
+	}
+
+	section .more-categories a{
+		color: white;
+		background: black;
+		text-decoration: none;
+		display: inline-block;
+		padding: 8px 16px;
+	}
+
+	section .more-categories a:hover{
+		color: black;
+		background: #8a3c6e;
+	}
+
+	section .more-categories .previous{
+		background: gray;
+	}
+
+
+
+	/*signup section*/
+	#newsletter{
+		width: 100%;
+		background: #eaeaea;
+	}
+
+	section .newsletter-section{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+
+	section .newsletter-container{
+		width: 87.5%;
+		margin: 8% auto;
+		text-align: center;
+	}
+
+	section .signup-newsletter{
+		width: 100%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+
+	section .signup-newsletter h2{
+		text-align: center;
+		margin: auto;
+		font-size: 35px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
+
+	section .signup-newsletter p{
+		font-family: 'Archivo', sans-serif;
+		font-size: 16px;
+		line-height: 1.17;
+		font-weight: 400;
+		padding: 5% 0;
+	}
+
+	section .signup{
+		width: 100%;
+		text-align: center;
+		display: inline-flex;
+		/*margin: auto;*/
+	}
+
+	section .signup .input{
+		box-sizing: border-box;
+		padding: 10px 0.5% 10px 10px;
+		border: 1px solid #8a3c6e;
+		border-radius: 5px 0 0 5px;
+		border-right: none;
+		/*margin-left: auto;*/
+		width: 80%;
+		background: #eaeaea;
+	}
+
+	section .signup .button{
+		padding: 4px 13px 4px 13px;
+		border: 1px solid #8a3c6e;
+		border-radius: 0 5px 5px 0;
+		cursor: pointer;
+		color: white;
+		background: #8a3c6e;
+		width: 25%;
+		font-family: 'Archivo', sans-serif;
+		font-size: 16px;
+		line-height: 1.17;
+	}
+
+	section .signup .button:hover{
+		border: 1px solid #8a3c6e;
+		color: black;
+		background: #8a3c6e;
+	}
+
+	section .social{
+	    justify-content: space-around;
+		display: inline-flex;
+		width: 80%;
+		padding-top: 9%;
+	}
+
+	section .social .fab{
+	    font-size: 20px;
+	    height: 40px;
+	    width: 40px;
+	    background: #8a3c6e;
+	    color: white;
+	    line-height: 40px;
+	    border-radius: 100%;
+	}
+
+	section .social .fab:hover{
+	    background: black;
+	    color: white;
+	    cursor: pointer;
+	}
+	
+	section .extra {
+	    margin-top: 9%;
+	}
+
+	section .payment-contact {
+	    margin-top: 10%;
+	}
+
+	section .payment-contact h3 {
+	    margin: auto;
+		font-size: 20px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	section .payment-contact img {
+	    padding: 3% 5%;
+	    vertical-align: middle;
+	    cursor: pointer;
+	}
+
+	section .payment-contact h5 {
+	    font-family: 'Archivo', sans-serif;
+		font-weight: 600;
+		line-height: 0.5;
+		margin-top: 4%;
+	}
+
+
+
+	hr {
+	    border: none;
+	    background: lightgray;
+	    margin: 0;
+	    height: 1px;
+	    padding: 0;
+	    width: 100%;
+	}
+
+
+	
+	/*start of footer section*/
+	#footer {
+	    width: 100%;
+	    background: #eaeaea;
+	}
+
+	footer .footer-section {
+	    width: 100%;
+	    padding-top: 5%;
+	    padding-bottom: 5%;
+	}
+
+	footer .footer-container {
+	    width: 87.5%;
+	    margin: 8% auto;
+	    text-align: left;
+	}
+	
+	footer .footer-main {
+	    width: 100%;
+	    margin-top: 4%;
+	    margin-bottom: 4%;
+	}
+
+	footer .footer-links {
+		margin-bottom: 5%;
+		width: 100%;
+	}
+
+	footer .footer-links h4{
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 600;
+	    color: #8a3c6e;
+	    margin-bottom: 3%;
+	}
+
+	footer .footer-links a{
+	    font-family: 'Source Sans Pro', sans-serif;
+	    color: gray;
+	    font-size: 13px;
+	    font-weight: 300;
+	    line-height: 1.5;
+	}
+
+	footer .footer-links a:hover{
+	    color: black;
+	    font-weight: 400;
+	    text-decoration: underline;
+	}
+
+
+
+	/*start of copyright section*/
+	#copyright {
+	    width: 100%;
+	    background: #8a3c6e;
+	}
+
+	footer .copyright-section {
+	    width: 100%;
+	    padding-top: 5%;
+	    padding-bottom: 5%;
+	}
+	
+	footer .copyright-container {
+	    width: 87.5%;
+	    margin: 1% auto;
+	    text-align: left;
+	}
+
+	footer .copyright-main {
+	    width: 100%;
+	    /*margin-top: 4%;
+	    margin-bottom: 4%;*/
+	}
+
+	footer .copyright-main p{
+	    text-align: center;
+	    line-height: 1.2;
+	    font-size: 15px;
+	    color: white;
+	}
+
+	
+	/*floating chat*/
+	footer .chat-container{
+		position: fixed;
+		bottom: 60px;
+		right: 20px;
+		z-index: 999;
+		cursor: pointer;
+	}
+
+	footer .floating-chat{
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+		background: #8a3c6e;
+		/*line-height: 50px;
+		text-align: center;*/
+		color: white;
+		font-size: 29px;
+		box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+	}
+
+	footer .floating-chat:hover{
+		opacity: 0.9;
+	}
+
+	footer .floating-chat i{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	
+
+
+
+
+@media (min-width: 500px) {
+	.container{
+		width: 100%;
+	}
+	.top-area{
+		width: 100%;
+	}
+	.top-container{
+		width: 82% !important;
+	}
+	.top-left{
+	width: 50%;
+	display: block !important;;
+	}
+	.top-right{
+	width: 50% ! important;
+	text-align: right !important;
+	}
+	.logo-container{
+		width: 82% !important;
+	}
+	/*.mobile-menu{
+		display: block !important;
+	}
+	.search-area-mobile{
+		display: none;
+	}*/
+	
+	/*.login{
+		width: 33%;
+	}
+
+	.cart{
+		width: 43%;
+		text-align: center;
+	}
+
+	.search{
+		width: 13%;
+		text-align: right;
+	}*/
+
+	.menu{
+		display: none;
+	}
+
+
+	/*start of background-image area*/
+	section .header-image{
+		/*padding: 200px 15px 90px 15px;
+		background: url(../img/boya.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  /*background-color: red;*/*/
+	  background: url(../img/boya.jpg);
+	  background-image: url("../img/boya.jpg");
+	  background-repeat: no-repeat, repeat;
+	  background-position: center;
+	  background-repeat: no-repeat; 
+	  background-size: cover;
+	  background-attachment: local; 
+	}
+
+	section .header-image{
+		width: 100%;
+		height: 60vh;
+		padding-top: 17%;
+		padding-bottom: 17%;
+	}
+
+	section .image-container{
+		width: 80%;
+		margin: auto;
+	}
+
+	section .image-content{
+		text-align: center;
+		width: 100%;
+	}
+
+	section .image-content h1{
+		color: white;
+		font-size: 35px;
+		font-weight: 700;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	section .image-content p{
+		color: white;
+		font-size: 25px;
+		font-weight: 500;
+		font-family: 'Archivo', sans-serif;
+		padding: 10% 0 16%;
+		line-height: 1.17;
+	}
+
+	section .image-content a{
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 1px;
+		border: none;
+		background: #8a3c6e;
+		color: white;
+	}
+
+	section .image-content a:hover{
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 1px;
+		border: none;
+		background: white;
+		color: #8a3c6e;
+	}
+
+
+	/*latest in store section*/
+	section #latest{
+		width: 100%;
+	} 
+
+	section .latest-in-store{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom:  5%;
+	} 
+
+	section .latest-container{
+		width: /*65%*/ /*80%*/ 80%;
+		margin: 0 auto;
+	}
+
+	section .mobile-store{
+		display: none;
+	}
+
+	section .tablet-store{
+		display: none;
+	}
+
+	section .smalltablet-store{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	section .store-imgs{
+		width: /*24%*/ /*32.5%*/ 48.5%;
+		border: 1px solid gainsboro;
+	}
+
+	section .store-imgs:hover{
+		border: 1px solid gray;
+	}
+	
+	section .store-imgs img{
+		width: 100%;
+	}
+
+	section .product-heading{
+	width: /*70%*/ 100%;
+	/*display: inline-flex;*/
+	display: block;
+	padding: 2%;
+	}
+
+	section .product-heading p{
+		font-family: 'Archivo Narrow', sans-serif;
+		font-size: 12px;
+		line-height: 1.17;
+		color: grey;
+	}
+
+	section .product-heading a{
+		color: black;
+	}
+
+	section .product-heading a:hover{
+		color: #8a3c6e;
+	}
+
+	section .product-heading h3{
+		font-family: 'Archivo', sans-serif;
+		font-size: 14px;
+		line-height: 1.17;
+	}
+
+	section .product-price{
+		/*width: 30%;
+		float: right;
+		text-align: right;*/
+		padding: 2%;
+	}
+
+	section .product-price h4{
+		color: #8a3c6e;
+		font-size: 18px;
+	}
+
+	section .product-price p{
+		color: silver;
+		font-size: 13px;
+	}
+
+
+	/*deals section*/
+	section #deals{
+		width: 100%;
+		display: block !important;
+	}
+
+	section .best-deals{
+		background-image: url("../img/boya-vid-camera.png");
+		background-repeat: no-repeat, repeat;
+		background-position: center;
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-attachment: local;
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .deals-container{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	section .great-deals{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	section .overlay-background{
+		height: 100%;
+		/*background: rgba(234, 141, 20, 0.9);*/
+		background: rgba(138, 60, 110, 0.9);
+		display: block;
+	}
+
+	section .pic{
+		width: 100%;
+		text-align: center;
+		/*position: relative;*/
+	}
+
+	section .pic img{
+		width: 40%;
+	}
+
+	section .text{
+		/*position: relative;*/
+		/*padding: 30px;*/
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+
+	/*section .text hr{
+		width: 80%;
+		height: 3px;
+		border: none;
+		color: gray;
+	}*/
+
+	section .text h2{
+		/*width: 80%;*/
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text p{
+		/*width: 80%;*/
+		font-size: 25px;
+		line-height: 1.17;
+		padding: 2% 0;
+	}
+
+	section .text h4{
+		/*width: 80%;*/
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text button{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	section .text button:hover{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		color: #8a3c6e;
+		background: black;
+	}
+
+
+
+	/*category / explore section*/
+	section #category{
+		width: 100%;
+	}
+
+	section .smalltablet-browse-category{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .mobile-browse-category{
+		display: none !important;
+	}
+
+	section .category-container{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	section .categories{
+		width: 100%;
+		display: block;
+		border: 1px solid gainsboro;
+	}
+
+	section .explore{
+		width: 100%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+
+	section .explore h2{
+		text-align: center;
+		margin: auto;
+		font-size: 35px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
+
+	section .options{
+		width: 100%;
+		/*margin: 2%;*/
+		padding: 2%;
+	}
+
+	section .row1{
+		display: inline-flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	section .row2{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-around;
+		margin-top: 2%;
+	}
+
+	section .explore-imgs{
+		width: 50%;
+	}
+
+	section .explore-imgs:hover{
+		/*width: 25%;*/
+		box-shadow: 0 0 11px rgba(33,33,33,.2);
+		-webkit-transform: scale(1.05, 1.05);
+  		transform: scale(1.05, 1.05);
+  		transition: /*box-shadow*/ opacity 0.3s ease-in-out;
+	}
+
+	section .explore-imgs a{
+		text-align: center;
+		margin: auto;
+		font-size: 22px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: black;
+	}
+
+	section .explore-imgs a:hover{
+		font-weight: 400;
+		color: black;
+	}
+
+	section .explore-imgs img{
+		width: 100%;
+	}
+
+	section .more-categories{
+		width: 100%;
+		/*float: right;*/
+		text-align: center;
+		display: block !important;
+	}
+
+	section .more-categories a{
+		color: white;
+		background: black;
+		text-decoration: none;
+		display: inline-block;
+		padding: 8px 16px;
+	}
+
+	section .more-categories a:hover{
+		color: black;
+		background: #8a3c6e;
+	}
+
+	/*signup section*/
+	section .newsletter-container {
+	    width: 437.5px;
+	}
+
+	section .signup-newsletter p {
+	    padding: 20px 0;
+	}
+
+	section .signup {
+	    width: 84%;
+	    text-align: center;
+	    display: inline-flex;
+	}
+
+	section .social {
+	    width: 70%;
+	}
+
+	section .payment-contact img {
+	    padding: 3% 5%;
+	}
+
+	
+
+	/*start of footer section*/
+	footer .footer-main {
+	    display: inline-flex;
+	    margin: 0;
+	}
+
+	footer .footer-links {
+		margin: 0;
+	}
+
+
+}
+
+
+
+
+
+@media (min-width: 834px) {
+	.search-area{
+		display: inline-flex !important;
+		width: 79%;
+		margin: auto 0;
+	}
+	.search-area form{
+		width: 45%;
+		text-align: center;
+		display: inline-flex;
+		margin: auto;
+	}
+	.search-area form input{
+		box-sizing: border-box;
+		padding: 10px 0.5% 10px 10px;
+		border: 1px solid #8a3c6e;
+		border-radius: 5px 0 0 5px;
+		border-right: none;
+		margin-left: auto;
+	}
+	.search-area form button{
+		padding: 4px 9px 4px 13px;
+		border: 1px solid #8a3c6e;
+		border-radius: 0 5px 5px 0;
+		cursor: pointer;
+		color: white;
+		background: #8a3c6e;
+		/*margin-right: auto;*/
+	}
+	.login{
+		width: 18%;
+		text-align: center;
+		font-weight: 500;
+		display: contents;
+		margin: auto;
+		cursor: pointer;
+	}
+	.login:hover{
+		color: #8a3c6e;
+	}
+	.login .user-login{
+		margin: auto;
+	}
+	.login .flaticon-user{
+		color: #8a3c6e;
+	}
+	.cart{
+		width: 26%;
+		display: flex;
+		margin: auto 0;
+		cursor: pointer;
+	}
+	.cart:hover{
+		color: #8a3c6e;
+	}
+	.cart .flaticon-shopping-cart{
+		color: #8a3c6e;
+	}
+	.cart p{
+		font-weight: 500;
+	}
+	.mobile-menu{
+		display: none !important;
+	}
+	.search-area-mobile{
+		display: none;
+	}
+	.menu-container{
+		width: /*100%*/ /*1040px*/ 834px !important;
+	}
+	.menu{
+		display: block !important;
+		text-align: center;
+	}
+	.menu ul li{
+		display: inline-block;
+		margin: 0 1%;
+	}
+	.menu ul li a{
+		font-size: 20px;
+		color: white;
+	}
+
+	/*start of background-image area*/
+	section .header-image{
+		/*padding: 200px 15px 90px 15px;
+		background: url(../img/boya.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  /*background-color: red;*/*/
+	  background: url(../img/boya.jpg);
+	  background-image: url("../img/boya.jpg");
+	  background-repeat: no-repeat, repeat;
+	  background-position: center;
+	  background-repeat: no-repeat; 
+	  background-size: cover;
+	  background-attachment: local; 
+	}
+
+	section .header-image{
+		width: 100%;
+		height: 70vh;
+	}
+
+	section .image-container{
+		width: 80%;
+		margin: auto;
+	}
+
+	section .image-content{
+		text-align: left;
+		width: 70%;
+	}
+
+	section .image-content h1{
+		color: white;
+		font-size: 35px;
+		font-weight: 700;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	section .image-content p{
+		color: white;
+		font-size: 25px;
+		font-weight: 500;
+		font-family: 'Archivo', sans-serif;
+		padding: 6% 0 11%;
+		line-height: 1.17;
+	}
+
+	section .image-content a{
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 1px;
+		border: none;
+		background: #8a3c6e;
+		color: white;
+	}
+
+	section .image-content a:hover{
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 1px;
+		border: none;
+		background: white;
+		color: #8a3c6e;
+	}
+
+	/*latest in store section*/
+	section #latest{
+		width: 100%;
+	} 
+
+	section .latest-in-store{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom:  5%;
+	} 
+
+	section .latest-container{
+		width: /*65%*/ /*80%*/ /*831px*/ 810px;
+		margin: 0 auto;
+	}
+
+	section .mobile-store{
+		display: none;
+	}
+
+	section .smalltablet-store{
+		display: none !important;
+	}
+
+	section .tablet-store{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	section .store-imgs{
+		width: /*24%*/ 32.5%;
+		border: 1px solid gainsboro;
+	}
+
+	section .store-imgs:hover{
+		border: 1px solid gray;
+	}
+	
+	section .store-imgs img{
+		width: 100%;
+	}
+
+	section .product-heading{
+		width: 70%;
+		/*display: inline-flex;*/
+		display: inline-block;
+		padding: 2%;
+	}
+
+	section .product-heading p{
+		font-family: 'Archivo Narrow', sans-serif;
+		font-size: 12px;
+		line-height: 1.17;
+		color: grey;
+	}
+
+	section .product-heading a{
+		color: black;
+	}
+
+	section .product-heading a:hover{
+		color: #8a3c6e;
+	}
+
+	section .product-heading h3{
+		font-family: 'Archivo', sans-serif;
+		font-size: 14px;
+		line-height: 1.17;
+	}
+
+	section .product-price{
+		width: 30%;
+		float: right;
+		text-align: right;
+		padding: 2%;
+	}
+
+	section .product-price h4{
+		color: #8a3c6e;
+		font-size: 18px;
+	}
+
+	section .product-price p{
+		color: silver;
+		font-size: 13px;
+	}
+
+	
+	/*deals section*/
+	section #deals{
+		width: 100%;
+		display: block !important;
+	}
+
+	section .best-deals{
+		background-image: url("../img/boya-vid-camera.png");
+		background-repeat: no-repeat, repeat;
+		background-position: center;
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-attachment: local;
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .deals-container{
+		width: 820px;
+		margin: 0 auto;
+	}
+
+	section .great-deals{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	section .overlay-background{
+		height: 100%;
+		/*background: rgba(234, 141, 20, 0.9);*/
+		background: rgba(138, 60, 110, 0.9);
+		display: inline-flex;
+	}
+
+	section .pic{
+		width: 50%;
+		text-align: center;
+		/*position: relative;*/
+	}
+
+	section .pic img{
+		width: 70%;
+	}
+
+	section .text{
+		/*position: relative;*/
+		/*padding: 30px;*/
+		text-align: left;
+		margin: auto;
+		width: 50%;
+	}
+
+	/*section .text hr{
+		width: 80%;
+		height: 3px;
+		border: none;
+		color: gray;
+	}*/
+
+	section .text h2{
+		width: 80%;
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text p{
+		width: 80%;
+		font-size: 25px;
+		line-height: 1.17;
+		padding: 2% 0;
+	}
+
+	section .text h4{
+		width: 80%;
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text button{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	section .text button:hover{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		color: #8a3c6e;
+		background: black;
+	}
+
+
+
+	/*category / explore section*/
+	section #category{
+		width: 100%;
+	}
+
+	section .tablet-browse-category{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .smalltablet-browse-category{
+		display: none !important;
+	}
+
+	section .category-container{
+		width: 820px;
+		margin: 0 auto;
+	}
+
+	section .categories{
+		width: 100%;
+		display: inline-flex;
+		border: 1px solid gainsboro;
+	}
+
+	section .explore{
+		width: 25%;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	section .explore h2{
+		text-align: center;
+		margin: auto;
+		font-size: 35px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
+
+	section .options{
+		width: 75%;
+		margin: 2%;
+	}
+
+	section .row1{
+		display: inline-flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	section .row2{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-around;
+		margin-top: 2%;
+	}
+
+	section .explore-imgs{
+		width: 24%;
+	}
+
+	section .explore-imgs:hover{
+		/*width: 25%;*/
+		box-shadow: 0 0 11px rgba(33,33,33,.2);
+		-webkit-transform: scale(1.05, 1.05);
+  		transform: scale(1.05, 1.05);
+  		transition: /*box-shadow*/ opacity 0.3s ease-in-out;
+	}
+
+	section .explore-imgs a{
+		text-align: center;
+		margin: auto;
+		font-size: 22px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: black;
+	}
+
+	section .explore-imgs a:hover{
+		font-weight: 400;
+		color: black;
+	}
+
+	section .explore-imgs img{
+		width: 100%;
+	}
+
+	section .more-categories{
+		width: 100%;
+		float: right;
+		text-align: right;
+		display: block !important;
+	}
+
+	section .more-categories a{
+		color: white;
+		background: black;
+		text-decoration: none;
+		display: inline-block;
+		padding: 8px 16px;
+	}
+
+	section .more-categories a:hover{
+		color: black;
+		background: #8a3c6e;
+	}
+
+
+	/*signup section*/
+	section .newsletter-container {
+	    margin: 3% auto;
+	}
+
+	section .signup-newsletter p {
+	    padding: 3% 0;
+	}
+
+	section .signup {
+	    width: 368px;
+	}
+
+
+
+	/*start of footer section*/
+	footer .footer-container {
+	    margin: 3% auto;
+	}
+
+
+	
+	/*start of copyright section*/
+	footer .copyright-section {
+	    padding-top: 4%;
+	    padding-bottom: 4%;
+	}
+
+	footer .copyright-container {
+	    margin: 0 auto;
+	}
+
+}
+
+
+
+
+@media (min-width: /*1039.98px*/1040px) {
+	.container{
+		width: 100%;
+	}
+	.top-area{
+		width: 100%;
+	}
+	.top-container{
+		width: 65% /*1040px*/ !important;
+	}
+	.top-left{
+	width: 50%;
+	display: block !important;;
+	}
+	.top-right{
+	width: 50% ! important;
+	text-align: right !important;
+	}
+	.logo-container{
+		width: 65% !important;
+	}
+	.search-area{
+		display: inline-flex !important;
+		width: 79%;
+		margin: auto 0;
+	}
+	.search-area form{
+		width: /*60%*/ 40%;
+		text-align: center;
+		display: inline-flex;
+		margin: auto;
+	}
+	.search-area form input{
+		box-sizing: border-box;
+		/*padding: 10px 90px 10px 10px;*/ padding: 10px 0.5% 10px 10px;
+		border: 1px solid #8a3c6e;
+		border-radius: 5px 0 0 5px;
+		border-right: none;
+		margin-left: auto;
+	}
+	.search-area form button{
+		padding: 4px 9px 4px 13px;
+		border: 1px solid #8a3c6e;
+		border-radius: 0 5px 5px 0;
+		cursor: pointer;
+		color: white;
+		background: #8a3c6e;
+		/*margin-right: auto;*/
+	}
+	.login{
+		width: /*18%*/ 27%;
+		text-align: center;
+		font-weight: 500;
+		display: flex;
+		margin: auto;
+		cursor: pointer;
+	}
+	.login:hover{
+		color: #8a3c6e;
+	}
+	.login .user-login{
+		margin: auto;
+	}
+	.login .flaticon-user{
+		color: #8a3c6e;
+	}
+	.cart{
+		width: /*15%*/ 26%;
+		display: flex;
+		margin: auto 0;
+		cursor: pointer;
+	}
+	.cart:hover{
+		color: #8a3c6e;
+	}
+	.cart .flaticon-shopping-cart{
+		color: #8a3c6e;
+	}
+	.cart p{
+		font-weight: 500;
+	}
+	.mobile-menu{
+		display: none !important;
+	}
+	.search-area-mobile{
+		display: none;
+	}
+	.menu-container{
+		width: /*65%*/ 1040px !important;
+	}
+	.menu{
+		display: block !important;
+	}
+	.menu ul li{
+		display: inline-block;
+		margin: 0 2.04%;
+	}
+	.menu ul li a{
+		font-size: 20px;
+		color: white;
+	}
+	.pro-video{
+		margin-left: 0 !important;
+		float: left;
+	}
+
+	/*start of background-image area*/
+	section .header-image{
+		/*padding: 200px 15px 90px 15px;
+		background: url(../img/boya.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  /*background-color: red;*/*/
+	  background: url(../img/boya.jpg);
+	  background-image: url("../img/boya.jpg");
+	  background-repeat: no-repeat, repeat;
+	  background-position: center;
+	  background-repeat: no-repeat; 
+	  background-size: cover;
+	  background-attachment: local; 
+	}
+
+	section .header-image{
+		width: 100%;
+		height: 80vh;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		vertical-align: middle;
+		display: inline-flex;
+	}
+
+	section .image-container{
+		width: 65%;
+		margin: auto;
+	}
+
+	section .image-content{
+		text-align: left;
+		width: 70%;
+	}
+
+	section .image-content h1{
+		color: white;
+		font-size: 35px;
+		font-weight: 700;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	section .image-content p{
+		color: white;
+		font-size: 25px;
+		font-weight: 500;
+		font-family: 'Archivo', sans-serif;
+		padding: 4% 0 8%;
+		line-height: 1.17;
+	}
+
+	section .image-content a{
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 1px;
+		border: none;
+		background: #8a3c6e;
+		color: white;
+	}
+
+	section .image-content a:hover{
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 1px;
+		border: none;
+		background: white;
+		color: #8a3c6e;
+	}
+
+
+	/*latest in store section*/
+	section #latest{
+		width: 100%;
+	} 
+
+	section .latest-in-store{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom:  5%;
+	} 
+
+	section .latest-container{
+		width: /*65%*/ 1040px;
+		margin: 0 auto;
+	}
+
+	section .mobile-store{
+		display: none;
+	}
+
+	section .tablet-store{
+		display: none !important;
+	}
+
+	section .smalltablet-store{
+		display: none !important;
+	}
+
+	section .store-img{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	section .store-imgs{
+		width: 24%;
+		border: 1px solid gainsboro;
+	}
+
+	section .store-imgs:hover{
+		border: 1px solid gray;
+	}
+	
+	section .store-imgs img{
+		width: 100%;
+	}
+
+	section .product-heading{
+		width: 70%;
+		/*display: inline-flex;*/
+		display: inline-block;
+		padding: 2%;
+	}
+
+	section .product-heading p{
+		font-family: 'Archivo Narrow', sans-serif;
+		font-size: 12px;
+		line-height: 1.17;
+		color: grey;
+	}
+
+	section .product-heading a{
+		color: black;
+	}
+
+	section .product-heading a:hover{
+		color: #8a3c6e;
+	}
+
+	section .product-heading h3{
+		font-family: 'Archivo', sans-serif;
+		font-size: 14px;
+		line-height: 1.17;
+	}
+
+	section .product-price{
+		width: 30%;
+		float: right;
+		text-align: right;
+		padding: 2%;
+	}
+
+	section .product-price h4{
+		color: #8a3c6e;
+		font-size: 18px;
+	}
+
+	section .product-price p{
+		color: silver;
+		font-size: 13px;
+	}
+
+
+	/*best deal section*/
+	section #deals{
+		width: 100%;
+		display: block !important;
+	}
+
+	section .best-deals{
+		background-image: url("../img/boya-vid-camera.png");
+		background-repeat: no-repeat, repeat;
+		background-position: center;
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-attachment: local;
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .deals-container{
+		width: /*65%*/ /*1040px*/ 1020px;
+		margin: 0 auto;
+	}
+
+	section .great-deals{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	section .overlay-background{
+		height: 100%;
+		/*background: rgba(234, 141, 20, 0.9);*/
+		background: rgba(138, 60, 110, 0.9);
+		display: inline-flex;
+	}
+
+	section .pic{
+		width: 50%;
+		text-align: center;
+		/*position: relative;*/
+	}
+
+	section .pic img{
+		width: 70%;
+	}
+
+	section .text{
+		/*position: relative;*/
+		/*padding: 30px;*/
+		text-align: left;
+		margin: auto;
+		width: 50%;
+	}
+
+	/*section .text hr{
+		width: 80%;
+		height: 3px;
+		border: none;
+		color: gray;
+	}*/
+
+	section .text h2{
+		width: 80%;
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text p{
+		width: 80%;
+		font-size: 25px;
+		line-height: 1.17;
+		padding: 20px 0;
+	}
+
+	section .text h4{
+		width: 80%;
+		font-size: 40px;
+		color: white;
+		font-weight: 600;
+	}
+
+	section .text button{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	section .text button:hover{
+		border: none;
+		padding: 8px 16px;
+		font-size: 16px;
+		cursor: pointer;
+		color: #8a3c6e;
+		background: black;
+	}
+
+
+
+	/*category / explore section*/
+	section #category{
+		width: 100%;
+	}
+
+	section .browse-category{
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		display: block !important;
+	}
+
+	section .tablet-browse-category{
+		display: none !important;
+	}
+
+	section .smalltablet-browse-category{
+		display: none !important;
+	}
+
+	section .category-container{
+		width: 1020px;
+		margin: 0 auto;
+	}
+
+	section .categories{
+		width: 100%;
+		display: inline-flex;
+		border: 1px solid gainsboro;
+	}
+
+	section .explore{
+		width: 25%;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	section .explore h2{
+		text-align: center;
+		margin: auto;
+		font-size: 35px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
+
+	section .options{
+		width: 75%;
+		margin: 2%;
+	}
+
+	section .row1{
+		display: inline-flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	section .row2{
+		display: inline-flex !important;
+		width: 100%;
+		justify-content: space-around;
+		margin-top: 2%;
+	}
+
+	section .explore-imgs{
+		width: 24%;
+	}
+
+	section .explore-imgs:hover{
+		/*width: 25%;*/
+		box-shadow: 0 0 11px rgba(33,33,33,.2);
+		-webkit-transform: scale(1.05, 1.05);
+  		transform: scale(1.05, 1.05);
+  		transition: /*box-shadow*/ opacity 0.3s ease-in-out;
+	}
+
+	section .explore-imgs a{
+		text-align: center;
+		margin: auto;
+		font-size: 22px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: black;
+	}
+
+	section .explore-imgs a:hover{
+		font-weight: 400;
+		color: black;
+	}
+
+	section .explore-imgs img{
+		width: 100%;
+	}
+
+
+	
+	/*signup section*/
+	section .newsletter-container {
+	    width: 1020px;
+	}
+
+	section .social{
+	    justify-content: space-around;
+		display: flex;
+		width: 40%;
+		margin: auto;
+		padding-top: 4%;
+
+	}
+	
+	section .extra {
+	    margin-top: 0;
+	    display: inline-flex;
+	}
+
+	section .payment-contact {
+	    width: 33%;
+	    margin-top: 5%;
+	}
+
+
+	/*start of footer section*/
+	footer .footer-container {
+	    width: 990px;
+	    margin: auto;
+	}
+
+	footer .copyright-section {
+	    padding-top: 2%;
+	    padding-bottom: 2%;
+	}
+
+}
